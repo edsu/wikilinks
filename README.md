@@ -2,11 +2,11 @@
 
 `wikilinks` is a Python module that provides a single function for extracting
 external links from Wikipedia that point at a particular website. This can be
-useful to discover how Wikipedian's have references content on another website
-in citations and other types of references. It was originally part of a much
-larger project called [Linkypedia] that was used to visualize the use of
-cultural heritage materials on Wikipedia. Linkypedia has since been shutdown but
-perhaps this little piece of functionality could still be of use to you.
+useful to discover how Wikipedians have references content on another website in
+citations and other types of references. It was originally part of a much larger
+project called [Linkypedia] that was used to visualize the use of cultural
+heritage materials on Wikipedia. Linkypedia has since been shutdown but perhaps
+this little piece of functionality could still be of use to you.
 
 While [Wikipedia's API] allows you list external links from a given page, it
 doesn't (to my knowledge) have an API call to retrieve pages that link to a
