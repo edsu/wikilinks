@@ -43,8 +43,9 @@ Which would output something like:
 
 ```
 
-If you know you are only interested in let's say the German and French
-Wikipedias you can limit the search:
+By default `wikilinks` will search all language Wikipedias. If you are only
+interested in links from particular language wikipedias you can use the `langs`
+parameter:
 
     ```
     for link in wikilinks("http://mith.umd.edu", langs=["de", "fr"]):
