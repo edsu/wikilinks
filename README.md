@@ -7,10 +7,10 @@ originally part of a much larger project called [linkypedia] that was used to
 visualize the use of cultural heritage materials on Wikipedia.
 
 While [Wikipedia's API] allows you list external links from a given page, it
-doesn't have an API call to retrieve pages that link to a particular website
-URL. They do however provide the [External links search] page that lets you
-perform this lookup.  wikilinks simply scrapes those results, for all language
-wikipedias.
+doesn't (to my knowledge) have an API call to retrieve pages that link to a
+particular website. However they do provide the [External links search] page
+that lets you perform this lookup in your browser. wikilinks simply scrapes
+those results, for all language wikipedias.
 
 ## Install
 
