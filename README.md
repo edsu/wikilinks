@@ -38,9 +38,7 @@ Which would output something like:
 ('https://de.wikipedia.org/wiki/Klapperschlangen', 'http://mith.umd.edu/eada/html/display.php?docs=smith_map.xml')
 ('https://de.wikipedia.org/wiki/Theater_(Bauwerk)', 'http://mith.umd.edu/theatrefinder/')
 ('https://en.wikipedia.org/wiki/User:Mastersplinter/Making_the_History_of_1989', 'http://mith.umd.edu/')
-
 ...
-
 ```
 
 By default `wikilinks` will search all language Wikipedias. If you are only
