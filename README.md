@@ -8,7 +8,7 @@ placement in Wikipedia, as well as the topics of interest in the website.
 
 The `wikilinks` code was originally part of a much larger project called
 [Linkypedia] that was used to visualize the use of cultural heritage materials
-on Wikipedia.  Linkypedia has since been shutdown but perhaps this little piece
+on Wikipedia.  Linkypedia has since been shut down but perhaps this little piece
 of functionality could still be of use to you.
 
 While [Wikipedia's API] allows you list external links from a given page, it
