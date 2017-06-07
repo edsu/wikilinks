@@ -44,7 +44,7 @@ Which would output something like:
 ```
 
 By default `wikilinks` will search all language Wikipedias. If you are only
-interested in links from particular language wikipedias you can use the `langs`
+interested in links from particular language Wikipedias you can use the `langs`
 parameter:
 
     ```
