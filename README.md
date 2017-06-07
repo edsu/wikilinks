@@ -23,7 +23,7 @@ those results, for all language Wikipedias.
 
 ## Use
 
-This example will fetch all each link from Wikipedia to the `mith.umd.edu`
+This example will fetch each Wikipedia article link to the `mith.umd.edu`
 website as a `(source, target)` tuple:
 
 ```python
