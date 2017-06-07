@@ -20,13 +20,13 @@ those results, for all language Wikipedias.
 
 ## Use
 
-This example will go and get all the links from wikipedia to the mith.umd.edu
-website as a tuple of `(source, target)`:
+This example will fetch all each link from Wikipedia to the `mith.umd.edu`
+website as a `(source, target)` tuple:
 
 ```python
 from wikilinks import wikilinks
 
-for link in wikilinks("http://www.loc.gov"):
+for link in wikilinks("http://mith.umd.edu"):
     print(link)
 ```
 
