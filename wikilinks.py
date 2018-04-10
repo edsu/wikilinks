@@ -4,6 +4,7 @@
 import re
 import time
 import codecs
+import optparse
 
 from six.moves.urllib.parse import urlencode
 from six.moves.urllib.request import urlopen, Request
@@ -68,3 +69,21 @@ def _fetch_again(e, url, params, retries):
         else: 
             time.sleep(10)
             return _fetch(url, params, retries)
+
+def main():
+    parser = optparse.OptionParser("wikilinks url")
+    parser.add_option('-l', '--lang', type='string', help='language wikipedias to search: e.g. en')
+    opts, args = parser.parse_args()
+    if opts.lang:
+        langs = opts.lang.split(',')
+    else:
+        langs = LANGS
+    if len(args) != 1:
+        parser.error('please supply url to search for')
+    site = args[0]
+    for link in wikilinks(site, langs=langs):
+        print('\t'.join(link))
+
+if __name__ == '__main__':
+    main()
+
