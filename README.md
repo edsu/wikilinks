@@ -70,10 +70,10 @@ By default `wikilinks` will search all language Wikipedias. If you are only
 interested in links from particular language Wikipedias you can use the `langs`
 parameter:
 
-    ```
-    for link in wikilinks("http://mith.umd.edu", langs=["de", "fr"]):
-        print(link)
-    ```
+```python
+for link in wikilinks("http://mith.umd.edu", langs=["de", "fr"]):
+    print(link)
+```
 
 [Wikipedia's API]: https://en.wikipedia.org/w/api.php
 [External links search]: https://en.wikipedia.org/wiki/Special:LinkSearch
