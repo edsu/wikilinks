@@ -26,23 +26,33 @@ those results, for all language Wikipedias.
 Find links in English Wikipedia that point at the mith.umd.edu website and print
 them out as tab separated URLs:
 
-    % wikilinks http://mith.umd.edu
-    https://en.wikipedia.org/wiki/User:Mastersplinter/Making_the_History_of_1989	http://mith.umd.edu/
-    https://en.wikipedia.org/wiki/University_of_Maryland_Libraries	http://mith.umd.edu/
-    https://en.wikipedia.org/wiki/User:Walker222	http://mith.umd.edu
-    https://en.wikipedia.org/wiki/Maryland_Institute_for_Technology_in_the_Humanities	http://mith.umd.edu/
-    https://en.wikipedia.org/wiki/User:Edsu	http://mith.umd.edu
-    https://en.wikipedia.org/wiki/University_of_Maryland_College_of_Information_Studies	http://mith.umd.edu/
-    https://en.wikipedia.org/wiki/Antonia%27s_Line	http://mith.umd.edu//WomensStudies/FilmReviews/antonias-line-mcalister
-    https://en.wikipedia.org/wiki/Rio_Nutrias	http://mith.umd.edu//eada/gateway/diario/diary.html
-    https://en.wikipedia.org/wiki/Rio_Nutria_(Zuni_River_tributary)	http://mith.umd.edu//eada/gateway/diario/diary.html
-    https://en.wikipedia.org/wiki/Nutrioso,_Arizona	http://mith.umd.edu//eada/gateway/diario/diary.html
+    % wikilinks --lang en http://mith.umd.edu
+    https://en.wikipedia.org/wiki/User:Mastersplinter/Making_the_History_of_1989
+    http://mith.umd.edu/
+    https://en.wikipedia.org/wiki/University_of_Maryland_Libraries
+    http://mith.umd.edu/ https://en.wikipedia.org/wiki/User:Walker222
+    http://mith.umd.edu
+    https://en.wikipedia.org/wiki/Maryland_Institute_for_Technology_in_the_Humanities
+    http://mith.umd.edu/ https://en.wikipedia.org/wiki/User:Edsu
+    http://mith.umd.edu
+    https://en.wikipedia.org/wiki/University_of_Maryland_College_of_Information_Studies
+    http://mith.umd.edu/ https://en.wikipedia.org/wiki/Antonia%27s_Line
+    http://mith.umd.edu//WomensStudies/FilmReviews/antonias-line-mcalister
+    https://en.wikipedia.org/wiki/Rio_Nutrias
+    http://mith.umd.edu//eada/gateway/diario/diary.html
+    https://en.wikipedia.org/wiki/Rio_Nutria_(Zuni_River_tributary)
+    http://mith.umd.edu//eada/gateway/diario/diary.html
+    https://en.wikipedia.org/wiki/Nutrioso,_Arizona
+    http://mith.umd.edu//eada/gateway/diario/diary.html
     https://en.wikipedia.org/wiki/Marilee_Lindemann	http://mith.umd.edu/2008/01/
-    https://en.wikipedia.org/wiki/User:Keilana/Women_scientist_resources	http://mith.umd.edu/WomensStudies/Bibliographies/ScienceBiblio/science-pt2
-    https://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Maria_Ford	http://mith.umd.edu/WomensStudies/FilmReviews/S/some-nudity-burdette.html
-    https://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Log/2015_January_14	http://mith.umd.edu/WomensStudies/FilmReviews/S/some-nudity-burdette.html
-    https://en.wikipedia.org/wiki/Talk:Colors_of_the_Wind	http://mith.umd.edu/WomensStudies/FilmReviews/pocahontas-strong
-    ...
+    https://en.wikipedia.org/wiki/User:Keilana/Women_scientist_resources
+    http://mith.umd.edu/WomensStudies/Bibliographies/ScienceBiblio/science-pt2
+    https://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Maria_Ford
+    http://mith.umd.edu/WomensStudies/FilmReviews/S/some-nudity-burdette.html
+    https://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Log/2015_January_14
+    http://mith.umd.edu/WomensStudies/FilmReviews/S/some-nudity-burdette.html
+    https://en.wikipedia.org/wiki/Talk:Colors_of_the_Wind
+    http://mith.umd.edu/WomensStudies/FilmReviews/pocahontas-strong ...
 
 ## Use as a Library
 
