@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    version = '0.0.3',
+    version = '0.0.4',
     name = 'wikilinks',
     url = 'http://github.com/edsu/wikilinks',
     author = 'Ed Summers',

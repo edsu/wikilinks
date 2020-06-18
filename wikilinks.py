@@ -13,7 +13,7 @@ LANGS = [
     "ar", "bg", "ca", "cs", "da", "de", "el", "en", "eo", "es",
     "eu", "fa", "fi", "fr", "he", "hu", "id", "it", "ja", "ko",
     "lt", "ms", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl",
-    "sv", "tr", "uk", "vi", "vo", "zh"
+    "sv", "tr", "uk", "vi", "vo", "zh", "commons"
 ]
 
 def wikilinks(site, langs=LANGS, page_size=500, offset=0, retries=5):
